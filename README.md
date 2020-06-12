@@ -1,4 +1,4 @@
-# Redirect to HTTPS
+# Gitignore Chassis Extension
 
 This [Chassis extension](https://docs.chassis.io/en/latest/extend/) lets you specify a list of strings that will be appended to the [`.git/info/exclude` file within the Chassis repository's root directory](https://git-scm.com/docs/gitignore). This lets you augment Chassis' own [`.gitignore` rules](https://github.com/Chassis/Chassis/blob/master/.gitignore) to include files (such as generated keys) which should not appear in any diff or git status check performed on the Chassis checkout.
 
