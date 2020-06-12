@@ -20,7 +20,6 @@ Exclude `.key` files in your Chassis directory, and a specific individual file, 
 # config.local.yaml
 
 gitignore:
-	- '*.key'
-	- 'some-specific-file-to-exclude.txt'
-
+  - '*.key'
+  - 'some-specific-file-to-exclude.txt'
 ```
